@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Linjun Wu"
-  avatar           : "bio-photo.png"
+  avatar           : "https://github.com/fivezerojun/xiaowu.github.io/blob/master/images/bio-photo.jpg" #"bio-photo.png"
   bio              : "State Key Lab of CAD&CG"
   location         : "Hangzhou, Zhejiang"
   employer         :
