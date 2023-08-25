@@ -85,7 +85,7 @@ author:
   bio              : "State Key Lab of CAD&CG"
   location         : "Hangzhou, Zhejiang"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=z3zHX3AAAAAJ&view_op=list_works&gmla=AOV7GLNjje7xfq_D5sZGEkOd9YlKTya4j7qB9JU31I3SVEf8rSlr9xf6ocDEtAVh9m75-_IJWYAdkNAzgEjhblaQ"
   email            : "15513323205@163.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "fivezerojun"
   google_plus      :
   keybase          :
   instagram        :
