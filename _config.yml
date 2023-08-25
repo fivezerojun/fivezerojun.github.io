@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Linjun Wu"
+  name             : "Your Sidebar Name"
   avatar           : "profile.png"
-  bio              : "State Key Lab of CAD&CG"
-  location         : "Hangzhou, Zhejiang"
+  bio              : "Your biography for the left-hand sidebar"
+  location         : "Location"
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=z3zHX3AAAAAJ&view_op=list_works&gmla=AOV7GLNjje7xfq_D5sZGEkOd9YlKTya4j7qB9JU31I3SVEf8rSlr9xf6ocDEtAVh9m75-_IJWYAdkNAzgEjhblaQ"
-  email            : "15513323205@163.com"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "fivezerojun"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-1988-0090"
+  orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
