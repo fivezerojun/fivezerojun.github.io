@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Linjun Wu, a first-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University，advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
+I am Linjun Wu, a first-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
 
 **Research Interest**: Character Animation.
 
