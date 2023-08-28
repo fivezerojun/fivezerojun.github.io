@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Linjun Wu, a Ph.D. candidate advised by Professor Xiaogang Jin at the CAD&CG state key lab of Zhejiang University in Hangzhou. I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
+I am Linjun Wu, a first-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University，advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
 
 **Research Interest**: Character Animation.
 
@@ -20,5 +20,5 @@ Publications
 ======
 - RSMT: Real-time Stylized Motion Transition for Characters <br>
   SIGGRAPH '23 Conference Proceedings <br>
-  Xiangjun Tang, **Linjun Wu**, [He Wang](http://drhewang.com/), Bo Hu, Xu Gong, Yuchen Liao, Songnan Li, Qilong Kou, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).
+  [Xiangjun Tang](https://yuyujunjun.github.io/), **Linjun Wu**, [He Wang](http://drhewang.com/), Bo Hu, Xu Gong, Yuchen Liao, Songnan Li, Qilong Kou, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).
 
