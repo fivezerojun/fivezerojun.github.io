@@ -11,7 +11,7 @@ title                    : "Linjun Wu"
 title_separator          : "-"
 name                     : &name "Linjun Wu"
 description              : &description "personal description"
-url                      : https://academicpages.github.io #"http://xiaowu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://fivezerojun.github.io #"http://xiaowu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fivezerojun/xiaowu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Linjun Wu"
-  avatar           : "foo-bar-identity.jpg"
+  avatar           : "bio-image1.jpg"
   bio              : "State Key Lab of CAD&CG"
   location         : "Hangzhou, Zhejiang"
   employer         :
