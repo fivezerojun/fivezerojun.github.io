@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Linjun Wu"
-  avatar           : "bio-image1.jpg"
-  bio              : "State Key Lab of CAD&CG"
+  avatar           : "myavater.jpg"
+  bio              : "State Key Lab of CAD&CG, Zhejiang University"
   location         : "Hangzhou, Zhejiang"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "15513323205@163.com"
+  googlescholar    : "https://scholar.google.com/citations?user=z3zHX3AAAAAJ"
+  email            : "woollen9@163.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
