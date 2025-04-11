@@ -26,7 +26,7 @@ Publications
     <p><strong>Semantically Consistent Text-to-Motion with Unsupervised Styles</strong><br>
       <strong>Linjun Wu</strong>, <a href="https://yuyujunjun.github.io/">Xiangjun Tang</a>, Jingyuan Cong, <a href="http://drhewang.com/">He Wang</a>, Bo Hu, Xu Gong, Songnan Li, Yuchen Liao, <a href="https://onethousandwu.com/">Yiqian Wu</a>, Chen Liu, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
       <br>SIGGRAPH '25 Conference Proceedings<br>
-      <a>Paper</a> | <a>Project Page</a> | <a>Code</a>
+      <a>Paper</a> | <a href="https://fivezerojun.github.io/stylization.github.io/">Project Page</a> | <a>Code</a>
     </p>
   </div>
 </div>
