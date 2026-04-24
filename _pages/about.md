@@ -8,16 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am Linjun Wu, a second-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
+I am Linjun Wu, a third-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
 
 **Research Interest**: Character Animation.
 
 **Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou, China.
 
-**Contact:** 12321232@zju.edu.cn; Woollen9@163.com
+**Contact:** 12321232@zju.edu.cn; woollen9@163.com
 
 Publications
 ======
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="flex-shrink: 0; margin-right: 20px;">
+    <img src="../images/cvpr2026.png" alt="Publication Image" style="width: 150px; height: auto;">
+  </div>
+  <div>
+    <p><strong>Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion</strong><br>
+      <strong>Linjun Wu</strong>, Jiejia Yu, Leyang Jin, <a href="http://drhewang.com/">He Wang</a>, Bowen Zheng, Xu Yang, Hao Jiang, Fei Xia, Fei Ling, Jun Deng, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
+      <br>The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)<br>
+      <a>Paper</a> | <a>Project Page</a> | <a href="https://www.youtube.com/watch?v=qtKtr4O8TAI">Video</a>
+    </p>
+  </div>
+</div>
+
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <div style="flex-shrink: 0; margin-right: 20px;">
     <img src="../images/stylization.jpg" alt="Publication Image" style="width: 150px; height: auto;">
@@ -26,7 +39,20 @@ Publications
     <p><strong>Semantically Consistent Text-to-Motion with Unsupervised Styles</strong><br>
       <strong>Linjun Wu</strong>, <a href="https://yuyujunjun.github.io/">Xiangjun Tang</a>, Jingyuan Cong, <a href="http://drhewang.com/">He Wang</a>, Bo Hu, Xu Gong, Songnan Li, Yuchen Liao, <a href="https://onethousandwu.com/">Yiqian Wu</a>, Chen Liu, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
       <br>SIGGRAPH '25 Conference Proceedings<br>
-      <a>Paper</a> | <a href="https://fivezerojun.github.io/stylization.github.io/">Project Page</a> | <a>Code</a> | <a href="https://www.youtube.com/watch?v=ZYCjhcN-T5s">Video</a>
+      <a href="https://dl.acm.org/doi/10.1145/3721238.3730641">Paper</a> | <a href="https://fivezerojun.github.io/stylization.github.io/">Project Page</a> | <a href="https://github.com/fivezerojun/Semantically-Consistent-Text-to-Motion-with-Unsupervised-Styles">Code</a> | <a href="https://www.youtube.com/watch?v=ZYCjhcN-T5s">Video</a>
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <div style="flex-shrink: 0; margin-right: 20px;">
+    <img src="../images/retargeting.png" alt="Publication Image" style="width: 150px; height: auto;">
+  </div>
+  <div>
+    <p><strong>Ultrafast and Controllable Online Motion Retargeting for Game Scenarios</strong><br>
+      Tianze Guo, Zhedong Chen, Yi Jiang, <strong>Linjun Wu</strong>, Xilei Wei, Lang Xu, Yeshuang Lin, <a href="http://drhewang.com/">He Wang</a>, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
+      <br>ACM Transactions on Graphics (SIGGRAPH ASIA '25 Conference Proceedings)<br>
+      <a href="https://dl.acm.org/doi/10.1145/3763351">Paper</a>
     </p>
   </div>
 </div>
