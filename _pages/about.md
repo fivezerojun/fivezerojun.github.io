@@ -1,86 +1,181 @@
 ---
+layout: home
 permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "Linjun Wu"
+excerpt: "Personal homepage of Linjun Wu"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am Linjun Wu, a third-year Ph.D candidate at the State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin). I received my bachelor’s degree in artificial intelligence from Zhejiang University in 2023.
+{% include base_path %}
 
-**Research Interest**: Character Animation.
-
-**Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou, China.
-
-**Contact:** 12321232@zju.edu.cn; woollen9@163.com
-
-Publications
-======
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="../images/cvpr2026.png" alt="Publication Image" style="width: 150px; height: auto;">
+<section class="home-hero" aria-label="Profile">
+  <div class="home-hero__visual">
+    <img class="home-hero__avatar" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
   </div>
-  <div>
-    <p><strong>Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion</strong><br>
-      <strong>Linjun Wu</strong>, Jiejia Yu, Leyang Jin, <a href="http://drhewang.com/">He Wang</a>, Bowen Zheng, Xu Yang, Hao Jiang, Fei Xia, Fei Ling, Jun Deng, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
-      <br>The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)<br>
-      <a>Paper</a> | <a>Project Page</a> | <a href="https://www.youtube.com/watch?v=qtKtr4O8TAI">Video</a>
+  <div class="home-hero__text">
+    <h1 class="home-hero__name">{{ site.author.name }}</h1>
+    <p class="home-hero__tagline">
+      Ph.D. candidate at the State Key Lab of CAD&amp;CG, Zhejiang University, working on character animation and controllable human motion generation.
+    </p>
+    <div class="home-hero__social" aria-label="Profile links">
+      {% if site.author.github %}
+        <a class="home-hero__social-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if site.author.googlescholar %}
+        <a class="home-hero__social-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if site.author.orcid %}
+        <a class="home-hero__social-link" href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+          <i class="ai ai-orcid" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if site.author.email %}
+        <a class="home-hero__social-link" href="mailto:{{ site.author.email }}" aria-label="Email">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+  <p class="home-hero__updated">Last updated: 2026-05-19</p>
+</section>
+
+<section class="home-section" id="welcome">
+  <h2 class="home-section__title">Welcome</h2>
+  <div class="home-prose">
+    <p>
+      I am Linjun Wu, a third-year Ph.D. candidate at the State Key Lab of CAD&amp;CG, Zhejiang University, advised by Prof.
+      <a href="http://www.cad.zju.edu.cn/home/jin" target="_blank" rel="noopener noreferrer">Xiaogang Jin</a>.
+      I received my bachelor's degree in artificial intelligence from Zhejiang University in 2023.
+    </p>
+    <p>
+      My research focuses on character animation, especially semantic control, motion style transfer, motion retargeting, and real-time character motion systems.
     </p>
   </div>
-</div>
+</section>
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="../images/stylization.jpg" alt="Publication Image" style="width: 150px; height: auto;">
+<section class="home-section" id="research">
+  <h2 class="home-section__title">Research</h2>
+  <div class="research-grid">
+    <article class="research-card">
+      <span class="research-card__label">Motion Generation</span>
+      <p>Precise keyframe control and semantic guidance for text-to-motion and diffusion-based animation.</p>
+    </article>
+    <article class="research-card">
+      <span class="research-card__label">Style Control</span>
+      <p>Semantically consistent motion stylization and fine-grained transfer for expressive character motion.</p>
+    </article>
+    <article class="research-card">
+      <span class="research-card__label">Interactive Animation</span>
+      <p>Fast, controllable motion retargeting and transition systems for game and interactive scenarios.</p>
+    </article>
   </div>
-  <div>
-    <p><strong>Semantically Consistent Text-to-Motion with Unsupervised Styles</strong><br>
-      <strong>Linjun Wu</strong>, <a href="https://yuyujunjun.github.io/">Xiangjun Tang</a>, Jingyuan Cong, <a href="http://drhewang.com/">He Wang</a>, Bo Hu, Xu Gong, Songnan Li, Yuchen Liao, <a href="https://onethousandwu.com/">Yiqian Wu</a>, Chen Liu, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
-      <br>SIGGRAPH '25 Conference Proceedings<br>
-      <a href="https://dl.acm.org/doi/10.1145/3721238.3730641">Paper</a> | <a href="https://fivezerojun.github.io/stylization.github.io/">Project Page</a> | <a href="https://github.com/fivezerojun/Semantically-Consistent-Text-to-Motion-with-Unsupervised-Styles">Code</a> | <a href="https://www.youtube.com/watch?v=ZYCjhcN-T5s">Video</a>
+</section>
+
+<section class="home-section" id="publications">
+  <h2 class="home-section__title">
+    Selected Publications
+    <a class="home-section__view-all" href="{{ base_path }}/publications/">(view all &gt;&gt;)</a>
+  </h2>
+  <ul class="paper-list">
+    <li class="paper-card">
+      <div class="paper-card__main">
+        <span class="paper-card__venue">CVPR 2026</span>
+        <h3 class="paper-card__title">Unifying Precise Keyframes and Semantic Control via Multi-level Diffusion</h3>
+        <p class="paper-card__authors">
+          <strong>Linjun Wu</strong>, Jiejia Yu, Leyang Jin,
+          <a href="http://drhewang.com/" target="_blank" rel="noopener noreferrer">He Wang</a>, Bowen Zheng, Xu Yang, Hao Jiang, Fei Xia, Fei Ling, Jun Deng,
+          <a href="http://www.cad.zju.edu.cn/home/jin/" target="_blank" rel="noopener noreferrer">Xiaogang Jin</a>
+        </p>
+        <div class="paper-card__links" aria-label="Publication links">
+          <a class="paper-card__link" href="https://fivezerojun.github.io/UnifyingKeyframesSemantics/" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+            <span>Project</span>
+          </a>
+          <a class="paper-card__link" href="https://fivezerojun.github.io/UnifyingKeyframesSemantics/figures/Poster.png" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-image" aria-hidden="true"></i>
+            <span>Poster</span>
+          </a>
+          <a class="paper-card__link" href="https://www.youtube.com/watch?v=qtKtr4O8TAI" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            <span>Video</span>
+          </a>
+        </div>
+      </div>
+      <figure class="paper-card__media">
+        <img src="{{ base_path }}/images/cvpr2026.png" alt="Preview for Unifying Precise Keyframes and Semantic Control">
+      </figure>
+    </li>
+
+    <li class="paper-card">
+      <div class="paper-card__main">
+        <span class="paper-card__venue">SIGGRAPH 2025</span>
+        <h3 class="paper-card__title">Semantically Consistent Text-to-Motion with Unsupervised Styles</h3>
+        <p class="paper-card__authors">
+          <strong>Linjun Wu</strong>,
+          <a href="https://yuyujunjun.github.io/" target="_blank" rel="noopener noreferrer">Xiangjun Tang</a>, Jingyuan Cong,
+          <a href="http://drhewang.com/" target="_blank" rel="noopener noreferrer">He Wang</a>, Bo Hu, Xu Gong, Songnan Li, Yuchen Liao,
+          <a href="https://onethousandwu.com/" target="_blank" rel="noopener noreferrer">Yiqian Wu</a>, Chen Liu,
+          <a href="http://www.cad.zju.edu.cn/home/jin/" target="_blank" rel="noopener noreferrer">Xiaogang Jin</a>
+        </p>
+        <div class="paper-card__links" aria-label="Publication links">
+          <a class="paper-card__link" href="https://dl.acm.org/doi/10.1145/3721238.3730641" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span>Paper</span>
+          </a>
+          <a class="paper-card__link" href="https://fivezerojun.github.io/stylization.github.io/" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+            <span>Project</span>
+          </a>
+          <a class="paper-card__link" href="https://github.com/fivezerojun/Semantically-Consistent-Text-to-Motion-with-Unsupervised-Styles" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <span>Code</span>
+          </a>
+          <a class="paper-card__link" href="https://www.youtube.com/watch?v=ZYCjhcN-T5s" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+            <span>Video</span>
+          </a>
+        </div>
+      </div>
+      <figure class="paper-card__media">
+        <img src="{{ base_path }}/images/stylization.jpg" alt="Preview for Semantically Consistent Text-to-Motion with Unsupervised Styles">
+      </figure>
+    </li>
+  </ul>
+</section>
+
+<section class="home-section" id="contact">
+  <h2 class="home-section__title">Contact</h2>
+  <div class="contact-panel">
+    <p>
+      Address: Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou, China.<br>
+      Email: <a href="mailto:12321232@zju.edu.cn">12321232@zju.edu.cn</a>; <a href="mailto:woollen9@163.com">woollen9@163.com</a>
     </p>
+    <div class="contact-links">
+      {% if site.author.github %}
+        <a class="contact-link" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
+      {% endif %}
+      {% if site.author.googlescholar %}
+        <a class="contact-link" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+          <span>Scholar</span>
+        </a>
+      {% endif %}
+      {% if site.author.email %}
+        <a class="contact-link" href="mailto:{{ site.author.email }}">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+          <span>Email</span>
+        </a>
+      {% endif %}
+    </div>
   </div>
-</div>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="../images/retargeting.png" alt="Publication Image" style="width: 150px; height: auto;">
-  </div>
-  <div>
-    <p><strong>Ultrafast and Controllable Online Motion Retargeting for Game Scenarios</strong><br>
-      Tianze Guo, Zhedong Chen, Yi Jiang, <strong>Linjun Wu</strong>, Xilei Wei, Lang Xu, Yeshuang Lin, <a href="http://drhewang.com/">He Wang</a>, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
-      <br>ACM Transactions on Graphics (SIGGRAPH ASIA '25 Conference Proceedings)<br>
-      <a href="https://dl.acm.org/doi/10.1145/3763351">Paper</a>
-    </p>
-  </div>
-</div>
-
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="../images/decouplecontact.jpg" alt="Publication Image" style="width: 150px; height: auto;">
-  </div>
-  <div>
-    <p><strong>Decoupling Contact for Fine-Grained Motion Style Transfer</strong><br>
-      <a href="https://yuyujunjun.github.io/">Xiangjun Tang</a>, <strong>Linjun Wu</strong>, <a href="http://drhewang.com/">He Wang</a>, <a href="https://onethousandwu.com/">Yiqian Wu</a>, Bo Hu, Songnan Li, Xu Gong, Yuchen Liao, Qilong Kou, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
-      <br>SIGGRAPH ASIA '24 Conference Proceedings<br>
-      <a href="http://www.cad.zju.edu.cn/home/jin/SigA20241/High_quality_Controllable_Motion_Style_Transfer.pdf">Paper</a> | <a href="http://www.cad.zju.edu.cn/home/jin/SigA20241/Decoupling_Contact.htm">Project Page</a>
-    </p>
-  </div>
-</div>
-
-
-<div style="display: flex; align-items: center;">
-  <div style="flex-shrink: 0; margin-right: 20px;">
-    <img src="../images/rsmt.png" alt="Publication Image" style="width: 150px; height: auto;">
-  </div>
-  <div>
-    <p><strong>RSMT: Real-time Stylized Motion Transition for Characters</strong><br>
-      <a href="https://yuyujunjun.github.io/">Xiangjun Tang</a>, <strong>Linjun Wu</strong>, <a href="http://drhewang.com/">He Wang</a>, Bo Hu, Xu Gong, Yuchen Liao, Songnan Li, Qilong Kou, <a href="http://www.cad.zju.edu.cn/home/jin/">Xiaogang Jin</a>
-      <br>SIGGRAPH '23 Conference Proceedings<br>
-      <a href="https://yuyujunjun.github.io/files/2023_Siggraph_RSMT.pdf">Paper</a> | <a href="https://yuyujunjun.github.io/publications/Siggraph2023_RSMT/">Project Page</a> | <a href="https://github.com/yuyujunjun/RSMT-Realtime-Stylized-Motion-Transition">Code</a>
-    </p>
-  </div>
-</div>
+</section>
