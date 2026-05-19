@@ -52,10 +52,10 @@ redirect_from:
     <p>
       I am Linjun Wu, a third-year Ph.D. candidate at the State Key Lab of CAD&amp;CG, Zhejiang University, advised by Prof.
       <a href="http://www.cad.zju.edu.cn/home/jin" target="_blank" rel="noopener noreferrer">Xiaogang Jin</a>.
-      I received my bachelor's degree in artificial intelligence from Zhejiang University in 2023.
+      I received my bachelor’s degree in Artificial Intelligence from Zhejiang University in 2023 and was enrolled in Chu Kochen Honors College.
     </p>
     <p>
-      My research focuses on character animation, especially semantic control, motion style transfer, motion retargeting, and real-time character motion systems.
+      My research focuses on character animation, with particular interests in text-driven human motion generation, motion stylization, motion in-betweening, and real-time animation systems.
     </p>
   </div>
 </section>
@@ -68,12 +68,12 @@ redirect_from:
       <p>Precise keyframe control and semantic guidance for text-to-motion and diffusion-based animation.</p>
     </article>
     <article class="research-card">
-      <span class="research-card__label">Style Control</span>
+      <span class="research-card__label">Motion Stylization</span>
       <p>Semantically consistent motion stylization and fine-grained transfer for expressive character motion.</p>
     </article>
     <article class="research-card">
       <span class="research-card__label">Interactive Animation</span>
-      <p>Fast, controllable motion retargeting and transition systems for game and interactive scenarios.</p>
+      <p>Fast, controllable motion transition and retargeting systems for game and interactive scenarios.</p>
     </article>
   </div>
 </section>
