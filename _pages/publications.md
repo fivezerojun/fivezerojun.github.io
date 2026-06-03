@@ -41,13 +41,13 @@ author_profile: false
           <a href="http://www.cad.zju.edu.cn/home/jin/" target="_blank" rel="noopener noreferrer">Xiaogang Jin</a>
         </p>
         <div class="paper-card__links" aria-label="Publication links">
-          <a class="paper-card__link" href="https://fivezerojun.github.io/UnifyingKeyframesSemantics/" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
-            <span>Project</span>
-          </a>
           <a class="paper-card__link" href="https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Unifying_Precise_Keyframes_and_Semantic_Control_via_Multi-level_Diffusion_CVPR_2026_paper.pdf" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-file-alt" aria-hidden="true"></i>
             <span>Paper</span>
+          </a>
+          <a class="paper-card__link" href="https://fivezerojun.github.io/UnifyingKeyframesSemantics/" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+            <span>Project</span>
           </a>
           <a class="paper-card__link" href="https://fivezerojun.github.io/UnifyingKeyframesSemantics/figures/Poster.png" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-image" aria-hidden="true"></i>
